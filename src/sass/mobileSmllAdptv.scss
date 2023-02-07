@@ -1,0 +1,91 @@
+@import "base";
+
+@import "nav";
+@import "swiper";
+@import "footer";
+@import "mobileAdptv";
+
+.wrapper{
+  @include sm{
+    padding-bottom: 0;
+  }
+}
+
+//nav
+.header-body{
+  @include sm{
+    padding: 20px 0;
+  }
+}
+
+//carousel
+.header-swiper{
+  @include sm{
+    padding-top: 100px;
+  }
+}
+.swiper {
+  @include sm {
+    padding-top: 10px;
+    height: 450px;
+  }
+}
+.swiper-slide{
+  @include sm{
+    border-radius: 5px;
+  }
+}
+
+//accordion
+.accordion-content{
+  @include sm{
+    flex-direction: column;
+    h2{
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+
+//blog-post
+.container{
+  @include sm{
+    padding: 0 2vw;
+    h2{
+      font-size: 40px;
+    }
+  }
+}
+.post-wrapper{
+  @include sm{
+    padding: 40px 0 0;
+  }
+}
+.slick-slide{
+  @include sm{
+    margin-bottom: 60px;
+    margin-right: 10px;
+  }
+}
+
+
+
+//footer
+.footer-body{
+  @include sm{
+    flex-direction: column;
+  }
+}
+.footer-info{
+  @include sm{
+    margin-bottom: 30px;
+  }
+}
+.footer-icons{
+  @include sm{
+    display: flex;
+    justify-content: center;
+  }
+}
+

@@ -1,0 +1,42 @@
+@import "base";
+
+.footer{
+  background-color: $footer-color;
+  padding: 50px 0 80px;
+}
+.footer-body{
+  max-width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-info{
+  h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 10px 0 25px;
+    max-width: 25vw;
+  }
+  a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+}
+.footer-icons{
+  a{
+    margin-right: 30px;
+  }
+}
